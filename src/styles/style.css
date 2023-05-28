@@ -1,0 +1,25 @@
+.square {
+    border: 1px outset black;
+    height:100px;
+    width:100px; 
+    padding: 1%;
+    font-size: 25px;
+    font-style: normal;
+    font: bold;
+    border-radius: 5%;
+    background-color: rgb(100, 184, 44);
+    color: aliceblue;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.status{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
